@@ -1,0 +1,137 @@
+/* common */
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-outline: none;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.link {
+    color: black;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+/* header */
+.header {
+    max-height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 65px;
+}
+
+.header-btn {
+    margin-left: 54px;
+    padding: 12px 22px;
+}
+
+/* body */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 56px;
+    padding: 60px 80px;
+    border-radius: 60px;
+    background: #F4F6F5;
+}
+
+.main-content .big-photo {
+    max-width: 871px;
+}
+
+.main-content .slogan {
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.main-content .btn {
+    margin-top: 32px;
+    padding: 20px 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.shops-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 65px;
+    padding: 60px 70px;
+}
+
+.cards-subtitle {
+    margin-top: 60px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    margin-top: 100px;
+}
+
+.card-avatar {
+    height: 700px;
+    width: 484px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.card-title {
+    margin-top: 28px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.card-slogan {
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    color: #7F7F7F;
+}
+
+/* footer */
+.invitation {
+    height: 300px;
+    margin-top: 100px;
+    padding: 0 100px;
+    background-color: #E5C643;
+}
+
+.invitation-title {
+    text-align: center;
+    color: white;
+}
